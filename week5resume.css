@@ -1,0 +1,46 @@
+h1 {
+    font-family: "Rubik", Helvetica, Arial, sans-serif;
+    color: green;
+    padding: 10px;
+}
+body {            
+    padding: 10px;
+    margin: 15px;
+    background-color: #ccc;
+
+    border-top-width: 20px;
+    border-top-style: ridge;
+    border-top-color: orange;
+    /* Other possible values dotted, dashed, double, groove, ridge, etc */
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: orange;
+    /* Style bottom */
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: orange;
+    /* Style right */
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: orange;
+    /* That was the longhand, a more common way to write the above properties is as follows
+    */
+    /* CSS Shorthand */
+    border: 2px solid orange;
+    /*What if wanted to have a different border on one side 
+    border-left-width: 5px;
+    border-left-color: green;
+    */
+}
+p {
+    padding: 10px
+    font-family: 'Rubik', sans-serif;
+     line-height: 15px;
+    letter-spacing: 2px;
+     word-spacing: 5px;
+     font-style: normal;
+     font-weight: 300;
+     width: 100%;
+     color: black;
+     background-image: url("gradient_bg.png");
+}
